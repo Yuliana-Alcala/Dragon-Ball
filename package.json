@@ -1,0 +1,15 @@
+{
+    "name": "dragonball",
+    "version": "1.0.0",
+    "description": "Dragon-Ball",
+    "main": "index.html",
+    "devDependencies": {
+      "jest": "*"
+    },
+    "scripts": {
+      "test": "jest"
+    },
+    "author": "Yuliana Alcalá",
+    "license": "ISC"
+  }
+  
