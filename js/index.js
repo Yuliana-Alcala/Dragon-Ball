@@ -1,5 +1,5 @@
 
-const requestUrl = "https://dragonball-api.com/api/characters?limit=5"
+const requestUrl = "https://dragonball-api.com/api/characters?limit=58"
 
 
 async function fetchApiDragon() {
@@ -17,23 +17,25 @@ fetchApiDragon().then(dragon => {
         let race = dragon.items[index]["race"];
         let gender = dragon.items[index]["gender"];
         let ki = dragon.items[index]["ki"];
-        let maxki = dragon.items[index]["maxki"];
+        let maxki = dragon.items[index]["maxKi"];
         let affiliation = dragon.items[index]["affiliation"];
 
         console.log(id,image,name);
 
         cardsdragon.innerHTML += `    <div class="card design card-width">
-                <img src="${image}" class="card-img-top" alt="...">
+                <img src="${image}" class="card-img-top" alt="Image">
                 <div class="card-body">
-                    <h5 class="card-title"> ${name}</h5>
-                    <p class="card-text"> ${race} - ${gender}</p>
-                    <p class="card-text">Base KI: ${ki}</p>
-                    <p class="card-text">Total KI: ${maxki}</p>
-                    <p class="card-text">Afiliation${affiliation}</p>
-                   
+                    <h1 class="card-name"> ${name}</h1>
+                    <p class="card-title"> ${race} - ${gender}</p>
+                    <p class="card-text">Base KI:</p>
+                    <p class="card-title"> ${ki}</p>
+                    <p class="card-text">Total KI:</p> 
+                    <p class="card-title"> ${maxki}</p>
+                    <p class="card-text">Afiliation </p>
+                    <p class="card-title">${affiliation}</p>                   
                 </div>                
                 <div class="card-body">
-                    <a href="#" class="card-link">Añadir al Carrito</a>
+                    <a href="#" class="card-link"></a>
                 </div>
         </div>
         `
