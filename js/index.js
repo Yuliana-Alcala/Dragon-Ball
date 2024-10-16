@@ -22,7 +22,7 @@ fetchApiDragon().then(dragon => {
 
         console.log(id,image,name);
 
-        cardsdragon.innerHTML += `    <div class="card design card-width">
+        cardsdragon.innerHTML += ` <div class="card design card-width">
                 <img src="${image}" class="card-img-top" alt="Image">
                 <div class="card-body">
                     <h1 class="card-name"> ${name}</h1>
