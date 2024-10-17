@@ -9,8 +9,12 @@
 </div>
 
 
-#
+
+
+
 ## Descripción del proyecto
+
+
 La tienda de comics del barrio se ha topado con esta web (https://web.dragonball-api.com/) y quieren que les montéis una web del mismo estilo con vuestra creatividad.
 
 Siendo la tienda muy fans de Dragonball hay que usar los End-points que pone a disposición la web https://(web.dragonball-api.com), investigar y probar como traerse lo que se necesita y tal como se pide.
