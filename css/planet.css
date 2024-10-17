@@ -1,5 +1,5 @@
 
-.cards-dragon{
+.cards-planet{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -8,34 +8,47 @@
 .card-width {
     width: 18rem;
 }
-
-.card-name{
-    color: white;
+img{
+    width: 100%;
+}
+.card-name-planet{
+    color: yellow;
     font-weight: bold;
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
-.card-title{
-    color: #FDC02D;
+.card-title-planet{
+    color: #F5F5F5;
     font-weight: bold;
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
-.card-body{
-    background-color: rgb(60,62,68);
+.card-body-planet{
+    background-color: rgb(9, 28, 82);
+    flex-grow: 1; /* Asegura que el fondo ocupe todo el espacio disponible */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 15px; /* Añadir padding para asegurar que el texto no esté pegado */
     
 }
+
 .card-text{
     color: #F5F5F5;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.card-img-top{
+.planet-cards{
+        
+    border-bottom: 3px solid #777777;
+    background-color: #000;
+}
+.card-img-top-planet{
     width: 286px;
     height: 200px;
     object-fit: contain;
