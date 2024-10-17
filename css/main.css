@@ -1,4 +1,10 @@
 
+main {
+    margin-top: 180px; 
+}
+h1{
+    text-align: center;
+}
 .cards-dragon{
     display: flex;
     justify-content: center;
@@ -33,6 +39,7 @@
     color: #F5F5F5;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .card-img-top{
