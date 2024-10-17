@@ -1,16 +1,15 @@
 <div>
-<h1 align="center"> Dragon Ball </h1>
-
-<p align="center">
-  <a href="">
-    <img src="https://web.dragonball-api.com/images-compress/logo_dragonballapi.webp" width="20%" height="20% />    
-  </a> 
-</p>
+    <h1 align="center">
+    <p align="center">
+        <a href="">
+            <img src="https://web.dragonball-api.com/images-compress/logo_dragonballapi.webp" width="20%" height="20%"/>    
+        </a> 
+    </p></h1>
+   
 </div>
 
 
-
-
+<hr style="border: 1px solid #FDC02D;"/>
 
 ## Descripción del proyecto
 
