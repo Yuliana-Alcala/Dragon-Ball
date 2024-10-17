@@ -1,0 +1,43 @@
+header {
+    background: #FDC02D;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+  }
+  
+  .img-conf {
+    height: 15%;
+    width: 10%;
+  }
+  nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 25px;
+  }
+  nav div {
+    padding: 14px 16px;
+  }
+  
+  nav div:hover {
+    background: #413a3a;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  @media (max-width: 650px) {
+    nav {
+      flex-direction: column;
+      justify-content: center;
+      font-size: 10px;
+    }
+    nav div {
+      padding: 5px;
+    }
+  }
+  
