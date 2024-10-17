@@ -1,31 +1,34 @@
 header {
-    background: #FDC02D;
+    background: #fdc02d;
     width: 100%;
     position: fixed;
     z-index: 100;
     top: 0;
   }
   
-  .img-conf {
+  .img-conf{
     height: 15%;
     width: 10%;
+    margin-right: auto;
   }
-  nav {
+  nav{
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    align-items:self-end;
     padding: 0 25px;
   }
   nav div {
     padding: 14px 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 25px;
   }
   
   nav div:hover {
-    background: #413a3a;
+    background: #938507;
   }
   
   a {
-    color: #fff;
+    color:black;
     text-decoration: none;
     text-align: center;
   }
